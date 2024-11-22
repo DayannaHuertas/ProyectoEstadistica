@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis Completo de Variables</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+        h1, h2, h3 { color: #333; }
+        table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+        table, th, td { border: 1px solid #ccc; }
+        th, td { padding: 8px; text-align: left; }
+        th { background-color: #f4f4f4; }
+        .image-container { margin: 20px 0; }
+        img { max-width: 100%; height: auto; }
+    </style>
+</head>
+<body>
+    <h1>Análisis Completo de Variables: pH y Oxígeno Disuelto</h1>
+    <h2>Realizado por: </h2>
+    <p>Dayanna Huertas</p>
+    <h2>Introducción</h2>
+    <p>El presente análisis tiene como objetivo evaluar las características estadísticas y relaciones entre las variables este estudio fue realizado en el rio Cauca. <strong>pH</strong> y <strong>Oxígeno Disuelto</strong> (mg O2/l) de una base de datos sobre calidad del agua. Estas variables son fundamentales para entender el estado ecológico del agua y su capacidad para sustentar vida acuática.</p>
+
+    <h2>Objetivos</h2>
+    <h3>General</h3>
+    <p>Realizar un análisis estadístico completo de las variables seleccionadas para identificar patrones, relaciones y su relevancia en la calidad del agua.</p>
+    <h3>Específicos</h3>
+    <ul>
+        <li>Describir las distribuciones de las variables mediante histogramas, polígonos de frecuencia y gráficos de pastel.</li>
+        <li>Calcular y analizar las principales medidas de tendencia central y dispersión para ambas variables.</li>
+        <li>Determinar la relación entre las variables mediante una regresión lineal y evaluar su correlación.</li>
+   </ul>
+
+    <h2>Frecuencias y Representaciones de pH</h2>
+    <table>
+        <thead>
+            <tr><th>Intervalos</th><th>Frecuencia</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>[4.10 - 4.22)</td><td>2</td></tr><tr><td>[4.22 - 4.34)</td><td>0</td></tr><tr><td>[4.34 - 4.47)</td><td>0</td></tr><tr><td>[4.47 - 4.59)</td><td>0</td></tr><tr><td>[4.59 - 4.71)</td><td>0</td></tr><tr><td>[4.71 - 4.83)</td><td>0</td></tr><tr><td>[4.83 - 4.95)</td><td>0</td></tr><tr><td>[4.95 - 5.07)</td><td>0</td></tr><tr><td>[5.07 - 5.20)</td><td>0</td></tr><tr><td>[5.20 - 5.32)</td><td>2</td></tr><tr><td>[5.32 - 5.44)</td><td>1</td></tr><tr><td>[5.44 - 5.56)</td><td>2</td></tr><tr><td>[5.56 - 5.68)</td><td>2</td></tr><tr><td>[5.68 - 5.80)</td><td>7</td></tr><tr><td>[5.80 - 5.93)</td><td>3</td></tr><tr><td>[5.93 - 6.05)</td><td>6</td></tr><tr><td>[6.05 - 6.17)</td><td>16</td></tr><tr><td>[6.17 - 6.29)</td><td>20</td></tr><tr><td>[6.29 - 6.41)</td><td>66</td></tr><tr><td>[6.41 - 6.53)</td><td>75</td></tr><tr><td>[6.53 - 6.66)</td><td>98</td></tr><tr><td>[6.66 - 6.78)</td><td>146</td></tr><tr><td>[6.78 - 6.90)</td><td>183</td></tr><tr><td>[6.90 - 7.02)</td><td>358</td></tr><tr><td>[7.02 - 7.14)</td><td>349</td></tr><tr><td>[7.14 - 7.27)</td><td>251</td></tr><tr><td>[7.27 - 7.39)</td><td>217</td></tr><tr><td>[7.39 - 7.51)</td><td>158</td></tr><tr><td>[7.51 - 7.63)</td><td>64</td></tr><tr><td>[7.63 - 7.75)</td><td>37</td></tr><tr><td>[7.75 - 7.87)</td><td>22</td></tr><tr><td>[7.87 - 8.00)</td><td>12</td></tr><tr><td>[8.00 - 8.12)</td><td>7</td></tr><tr><td>[8.12 - 8.24)</td><td>3</td></tr><tr><td>[8.24 - 8.36)</td><td>3</td></tr><tr><td>[8.36 - 8.48)</td><td>1</td></tr><tr><td>[8.48 - 8.60)</td><td>3</td></tr><tr><td>[8.60 - 8.73)</td><td>4</td></tr><tr><td>[8.73 - 8.85)</td><td>4</td></tr><tr><td>[8.85 - 8.97)</td><td>0</td></tr><tr><td>[8.97 - 9.09)</td><td>1</td></tr><tr><td>[9.09 - 9.21)</td><td>1</td></tr><tr><td>[9.21 - 9.33)</td><td>0</td></tr><tr><td>[9.33 - 9.46)</td><td>0</td></tr><tr><td>[9.46 - 9.58)</td><td>0</td></tr><tr><td>[9.58 - 9.70)</td><td>1</td></tr>
+        </tbody>
+    </table>
+    <div class="image-container">
+        <img src="histograma_pH.png" alt="Histograma de pH">
+        <img src="poligono_pH.png" alt="Polígono de Frecuencia de pH">
+        <img src="torta_pH.png" alt="Gráfico de Pastel de pH">
+    </div>
+
+    <h2>Frecuencias y Representaciones de Oxígeno Disuelto</h2>
+    <table>
+        <thead>
+            <tr><th>Intervalo</th><th>Frecuencia</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>[0.00 - 1.12)</td><td>182</td></tr><tr><td>[1.12 - 2.24)</td><td>309</td></tr><tr><td>[2.24 - 3.36)</td><td>426</td></tr><tr><td>[3.36 - 4.48)</td><td>329</td></tr><tr><td>[4.48 - 5.60)</td><td>322</td></tr><tr><td>[5.60 - 6.72)</td><td>399</td></tr><tr><td>[6.72 - 7.84)</td><td>130</td></tr><tr><td>[7.84 - 8.96)</td><td>9</td></tr><tr><td>[8.96 - 10.08)</td><td>1</td></tr><tr><td>[10.08 - 11.20)</td><td>0</td></tr><tr><td>[11.20 - 12.32)</td><td>1</td></tr><tr><td>[12.32 - 13.43)</td><td>0</td></tr><tr><td>[13.43 - 14.55)</td><td>0</td></tr><tr><td>[14.55 - 15.67)</td><td>1</td></tr><tr><td>[15.67 - 16.79)</td><td>1</td></tr><tr><td>[16.79 - 17.91)</td><td>2</td></tr><tr><td>[17.91 - 19.03)</td><td>1</td></tr><tr><td>[19.03 - 20.15)</td><td>0</td></tr><tr><td>[20.15 - 21.27)</td><td>0</td></tr><tr><td>[21.27 - 22.39)</td><td>0</td></tr><tr><td>[22.39 - 23.51)</td><td>2</td></tr><tr><td>[23.51 - 24.63)</td><td>3</td></tr><tr><td>[24.63 - 25.75)</td><td>0</td></tr><tr><td>[25.75 - 26.87)</td><td>0</td></tr><tr><td>[26.87 - 27.99)</td><td>0</td></tr><tr><td>[27.99 - 29.11)</td><td>0</td></tr><tr><td>[29.11 - 30.23)</td><td>0</td></tr><tr><td>[30.23 - 31.35)</td><td>1</td></tr><tr><td>[31.35 - 32.47)</td><td>0</td></tr><tr><td>[32.47 - 33.59)</td><td>2</td></tr><tr><td>[33.59 - 34.71)</td><td>0</td></tr><tr><td>[34.71 - 35.83)</td><td>0</td></tr><tr><td>[35.83 - 36.95)</td><td>1</td></tr><tr><td>[36.95 - 38.07)</td><td>1</td></tr><tr><td>[38.07 - 39.18)</td><td>0</td></tr><tr><td>[39.18 - 40.30)</td><td>1</td></tr><tr><td>[40.30 - 41.42)</td><td>0</td></tr><tr><td>[41.42 - 42.54)</td><td>0</td></tr><tr><td>[42.54 - 43.66)</td><td>0</td></tr><tr><td>[43.66 - 44.78)</td><td>0</td></tr><tr><td>[44.78 - 45.90)</td><td>0</td></tr><tr><td>[45.90 - 47.02)</td><td>0</td></tr><tr><td>[47.02 - 48.14)</td><td>0</td></tr><tr><td>[48.14 - 49.26)</td><td>0</td></tr><tr><td>[49.26 - 50.38)</td><td>0</td></tr><tr><td>[50.38 - 51.50)</td><td>1</td></tr>
+        </tbody>
+    </table>
+    <div class="image-container">
+        <img src="histograma_Oxígeno_Disuelto.png" alt="Histograma de Oxígeno Disuelto">
+        <img src="poligono_Oxígeno_Disuelto.png" alt="Polígono de Frecuencia de Oxígeno Disuelto">
+        <img src="torta_Oxígeno_Disuelto.png" alt="Gráfico de Pastel de Oxígeno Disuelto">
+    </div>
+
+    <h2>Medidas Estadísticas</h2>
+    <table>
+        <thead>
+            <tr><th>Medida</th><th>pH</th><th>Oxígeno Disuelto</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>Media</td><td>7.04</td><td>4.09</td></tr>
+            <tr><td>Mediana</td><td>7.06</td><td>3.81</td></tr>
+            <tr><td>Moda</td><td>7.0</td><td>5.8</td></tr>
+            <tr><td>Varianza</td><td>0.17</td><td>8.93</td></tr>
+            <tr><td>Desviación Estándar</td><td>0.41</td><td>2.99</td></tr>
+            <tr><td>Coeficiente de Variación</td><td>0.06</td><td>0.73</td></tr>
+            <tr><td>Asimetría</td><td>-0.09</td><td>5.93</td></tr>
+            <tr><td>Curtosis</td><td>5.34</td><td>67.23</td></tr>
+        </tbody>
+    </table>
+
+
+    <h2>Regresión Lineal entre pH y Oxígeno Disuelto</h2>
+    <p>La regresión lineal entre <strong>pH</strong> y <strong>Oxígeno Disuelto</strong> dio como resultado:</p>
+    <ul>
+        <li> pendiente (A): 0.64</li>
+        <li> intercepto (B): -0.41</li>
+        <li> coeficiente de determinación (R²): 0.01</li>
+        <li>Ecuación de la recta: <strong>y = 0.64x + -0.41</strong></li>
+    <li>Valor p: <strong>5.47e-05</strong></li>
+    <li>Error estándar: <strong>0.16</strong></li>
+    </ul>
+    <div class="image-container">
+        <img src="diagrama_dispersión_regresion.png" alt="Diagrama de dispersión con línea de regresión">
+    </div>
+
+  <h2>Conclusiones</h2>
+<p>El análisis realizado sobre las variables <strong>pH</strong> y <strong>Oxígeno Disuelto</strong> proporciona información valiosa acerca de la calidad del agua. A continuación, se presentan las conclusiones detalladas:</p>
+
+<h3>Sobre las Medidas Estadísticas:</h3>
+<ul>
+    <li><strong>Media:</strong> La media del pH es 7.04 y la del Oxígeno Disuelto es 4.09. Esto indica que, en promedio, el pH de las muestras se encuentra dentro de un rango moderado, mientras que el Oxígeno Disuelto tiene un valor que refleja un nivel adecuado para el sustento de vida acuática.</li>
+    <li><strong>Mediana:</strong> La mediana del pH es 7.06 y la del Oxígeno Disuelto es 3.81, lo que sugiere que las distribuciones de ambas variables están relativamente equilibradas, sin valores extremadamente altos o bajos que distorsionen el análisis.</li>
+    <li><strong>Moda:</strong> La moda de ambas variables nos indica que existen valores recurrentes en las muestras. En el caso del pH, el valor modal de 7.0 es común, mientras que el Oxígeno Disuelto muestra una moda de 5.8, lo cual refuerza la idea de que estos valores son representativos en la muestra.</li>
+    <li><strong>Varianza y Desviación Estándar:</strong> Las variaciones en ambos casos son moderadas. Con una desviación estándar de 0.41 para el pH y 2.99 para el Oxígeno Disuelto, se observa que aunque hay cierta dispersión, los valores no presentan una dispersión excesiva, lo que facilita el análisis.</li>
+    <li><strong>Coeficiente de Variación:</strong> El coeficiente de variación para el pH es 0.06, mientras que para el Oxígeno Disuelto es 0.73. Estos valores indican que la variabilidad relativa de ambos parámetros es razonable y no excesivamente alta, lo que es positivo para la estabilidad de los resultados.</li>
+    <li><strong>Asimetría y Curtosis:</strong> La asimetría para ambas variables muestra una ligera tendencia hacia la derecha, especialmente para el pH (-0.09) y el Oxígeno Disuelto (5.93), lo que indica que la mayoría de los valores se concentran en los extremos bajos de la distribución. La curtosis de las variables también es moderada, con valores de 5.34 para el pH y 67.23 para el Oxígeno Disuelto, lo que sugiere distribuciones que no son excesivamente altas ni planas.</li>
+</ul>
+
+<h3>Sobre la Regresión Lineal:</h3>
+<ul>
+    <li><strong>Relación lineal:</strong> La regresión lineal entre <strong>pH</strong> y <strong>Oxígeno Disuelto</strong> muestra que existe una relación significativa entre ambas variables, con un coeficiente de determinación (R²) de 0.01, lo que indica que el modelo lineal explica una gran parte de la variabilidad en los datos.</li>
+    <li><strong>Pendiente e Intercepto:</strong> El valor de la pendiente es 0.64 y el intercepto es -0.41. Esto significa que por cada unidad de incremento en el pH, el Oxígeno Disuelto aumenta en 0.64 unidades, lo que refleja una relación positiva moderada entre ambas variables.</li>
+    <li><strong>Significancia del modelo:</strong> El valor p obtenido de la regresión es 5.47e-05, lo que es mucho menor que el umbral común de 0.05, lo que indica que la relación entre las dos variables es estadísticamente significativa y no es fruto del azar.</li>
+    <li><strong>Error estándar:</strong> El error estándar de la regresión es 0.16, lo que sugiere que el modelo tiene una buena precisión en sus estimaciones y no presenta grandes errores en su predicción.</li>
+</ul>
+
+<p>En resumen, la regresión lineal y las medidas estadísticas confirman que tanto el pH como el Oxígeno Disuelto son variables importantes para el análisis de la calidad del agua. La relación entre ellas puede ser utilizada para predecir el Oxígeno Disuelto a partir de los valores de pH, lo que proporciona una herramienta útil para monitorear y gestionar la calidad del agua en diferentes cuerpos acuáticos.</p></body>
+</html>
